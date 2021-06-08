@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "prettier": "^2.3.1"
+  },
+  "dependencies": {
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2"
+  }
+}
