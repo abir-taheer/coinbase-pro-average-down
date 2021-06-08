@@ -82,3 +82,5 @@ To run the app simply use the following command:
 ```shell
 npm start
 ```
+
+Leave the app and your pc (or server) running, so the app can monitor prices
