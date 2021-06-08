@@ -106,3 +106,7 @@ dist
 # IntelliJ config directory
 .idea/
 
+# Any sqlite db files
+*.db
+*.sqlite
+*.sqlite3
