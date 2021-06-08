@@ -19,7 +19,7 @@ async function tickerMessageHandler(ticker) {
 
   if (price < target && !state.getIsProcessing()) {
     // It fell below the threshold, trigger a buy order
-    const buffer = 1 - Number(process.env.PRICE_BUFFER);
+    const buffer = 1 + Number(process.env.PRICE_BUFFER);
     const bufferedPrice = price * buffer;
     const approx = Math.round(bufferedPrice * 100) / 100;
     const limitPrice = approx.toFixed(2);
